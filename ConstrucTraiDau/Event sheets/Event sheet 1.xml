@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="777649401869632">
+            <conditions>
+                <condition id="2" name="Key is down" sid="686237899316165" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="674752732461260" type="Sprite">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="664634031753572">
+            <conditions>
+                <condition id="2" name="Key is down" sid="368868320514105" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="699511684432644" type="Sprite">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="827524668723171">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="812902140966622" type="Sprite" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="296093067406590" type="Sprite">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
