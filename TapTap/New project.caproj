@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>25500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="TiledBackground" sid="689141060226937">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\tuan.tranminh2\OneDrive\Construc2\OWL\backkground1.jpg" />
+        </object-type>
+        <object-type name="Sprite" sid="481049861695497">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Sprite" sid="117750799498052" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="570367577106751">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Jumpthru" sid="762043992245438">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="668065356203588">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="702835346708065">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="236437681404957" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="216705935547596">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="472716535366407">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="493100134131604">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163855651111305" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\tran.huanguyenmai\OneDrive\TouchTopBottom\Data\baby\1.png">
+                        <collision-poly>
+                            <point x="0.364228" y="0.331098" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="0.994141" y="0.5" />
+                            <point x="0.696141" y="0.698402" />
+                            <point x="0.5" y="0.990234" />
+                            <point x="0.150391" y="0.849609" />
+                            <point x="0.183771" y="0.649254" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\tran.huanguyenmai\OneDrive\TouchTopBottom\Data\baby\2.png">
+                        <collision-poly>
+                            <point x="0.318182" y="0.313433" />
+                            <point x="0.5" y="0.0597015" />
+                            <point x="0.878788" y="0.119403" />
+                            <point x="0.909091" y="0.5" />
+                            <point x="0.818182" y="0.820895" />
+                            <point x="0.5" y="0.843284" />
+                            <point x="0.0833333" y="0.91791" />
+                            <point x="0.378788" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="712476029851344">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Keyboard" sid="842055828481697">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type global="1" name="High" sid="672365084149439">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Mouse" sid="482326379113270">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type global="1" name="CountTap" sid="532296063391024">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type global="1" name="Array" sid="822788860161866">
+            <plugin id="Arr" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="10" />
+        <global-instance type="Mouse" uid="12" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
