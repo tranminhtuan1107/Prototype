@@ -1,0 +1,54 @@
+2018-05-07T17:41:28.592Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-07T17:41:28.598Z - normal: checking language setting...
+2018-05-07T17:41:28.598Z - normal: Language: en
+2018-05-07T17:41:30.344Z - success: protocol editor-framework registered
+2018-05-07T17:41:30.344Z - success: protocol app registered
+2018-05-07T17:41:30.344Z - success: protocol theme registered
+2018-05-07T17:41:30.344Z - success: protocol packages registered
+2018-05-07T17:41:30.344Z - success: protocol unpack registerred
+2018-05-07T17:41:30.344Z - success: protocol disable-commonjs registerred
+2018-05-07T17:41:30.870Z - normal: connected!
+2018-05-07T17:41:30.871Z - normal: Check project D:\gitCheck\trunk\2048\popstar2048
+2018-05-07T17:41:30.873Z - normal: Initializing Cocos2d
+2018-05-07T17:41:31.084Z - normal: Initializing Asset Database
+2018-05-07T17:41:31.116Z - success: protocol uuid registerred
+2018-05-07T17:41:31.116Z - success: protocol db registerred
+2018-05-07T17:41:31.116Z - success: protocol thumbnail registerred
+2018-05-07T17:41:31.116Z - normal: Loading editor/builtin packages
+2018-05-07T17:41:31.136Z - success: anysdk loaded
+2018-05-07T17:41:31.259Z - success: assets loaded
+2018-05-07T17:41:31.261Z - success: builder loaded
+2018-05-07T17:41:31.263Z - success: cocos-analytics loaded
+2018-05-07T17:41:31.266Z - success: console loaded
+2018-05-07T17:41:31.268Z - success: hierarchy loaded
+2018-05-07T17:41:31.271Z - success: inspector loaded
+2018-05-07T17:41:31.272Z - success: keystore loaded
+2018-05-07T17:41:31.275Z - success: node-library loaded
+2018-05-07T17:41:31.276Z - success: package-asset loaded
+2018-05-07T17:41:31.279Z - success: preferences loaded
+2018-05-07T17:41:31.281Z - success: project-exporter loaded
+2018-05-07T17:41:31.302Z - success: project-importer loaded
+2018-05-07T17:41:31.304Z - success: project-settings loaded
+2018-05-07T17:41:31.306Z - success: ui-kit loaded
+2018-05-07T17:41:31.308Z - success: ui-grid loaded
+2018-05-07T17:41:31.311Z - success: scene loaded
+2018-05-07T17:41:31.312Z - success: sprite-editor loaded
+2018-05-07T17:41:31.315Z - success: store loaded
+2018-05-07T17:41:31.319Z - success: timeline loaded
+2018-05-07T17:41:31.319Z - normal: Loading builtin packages
+2018-05-07T17:41:31.321Z - success: asset-db-debugger loaded
+2018-05-07T17:41:31.322Z - success: code-editor loaded
+2018-05-07T17:41:31.323Z - success: color-picker loaded
+2018-05-07T17:41:31.325Z - success: package-manager loaded
+2018-05-07T17:41:31.328Z - success: sdkbox loaded
+2018-05-07T17:41:31.332Z - success: tester loaded
+2018-05-07T17:41:31.334Z - success: ui-kit-preview-extra loaded
+2018-05-07T17:41:31.335Z - success: ui-kit-preview loaded
+2018-05-07T17:41:31.336Z - success: ui-tree loaded
+2018-05-07T17:41:32.649Z - normal: Initializing project D:\gitCheck\trunk\2048\popstar2048
+2018-05-07T17:41:32.656Z - normal: Loading packages
+2018-05-07T17:41:32.661Z - normal: Watching packages
+2018-05-07T17:41:32.675Z - normal: Run Application
+2018-05-07T17:41:33.741Z - success: preview server running at http://localhost:7456
+2018-05-07T17:41:37.970Z - normal: 1.8.2
+2018-05-07T17:54:43.459Z - info: shutdown preview server
