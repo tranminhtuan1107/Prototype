@@ -37,7 +37,8 @@ cc.Class({
 
         if (number) {
             var lb = number.getComponent(cc.Label);;
-            lb.string  ="8";
+            lb.string  ="16";
+            Sprite1.color =  cc.hexToColor('#C517C5');
         }
         else {
             cc.error("Something wrong??");

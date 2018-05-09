@@ -10,30 +10,45 @@
 
 cc.Class({
     extends: cc.Component,
-
+    isJump: false,
     properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
+        // main character's jump height
+        jumpHeight: 0,
+        // main character's jump duration
+        jumpDuration: 0,
+        // maximal movement speed
+        maxMoveSpeed: 0,
+        // acceleration
+        accel: 0,
     },
 
     // LIFE-CYCLE CALLBACKS:
 
-     //onLoad () {
+     onLoad () {
+        this.node.on(cc.Node.EventType.MOUSE_DOWN, function (event) {
+           
+           this.setJumpAction();
+           
+          }, this);
+     },
 
-     //},
+     setJumpAction: function () {
+         if(this.isJump == true)
+         {
+            cc.log("aaaaaa down");
+              var jumpDown = cc.moveBy(this.jumpDuration, cc.p(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());
+              this.node.runAction(jumpDown);
+              this.isJump = false;
+         }
+         else
+         {
+              // jump up
+            var jumpUp = cc.moveBy(this.jumpDuration, cc.p(0, this.jumpHeight)).easing(cc.easeCubicActionOut());
+            this.node.runAction(jumpUp);
+            cc.log("aaaaaa up");
+            this.isJump = true;
+         }
+    },
 
     start () {
 

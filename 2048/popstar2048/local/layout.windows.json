@@ -113,6 +113,12 @@
       "y": 140,
       "width": 516,
       "height": 739
+    },
+    "preferences": {
+      "x": 672,
+      "y": 240,
+      "width": 580,
+      "height": 565
     }
   }
 }
