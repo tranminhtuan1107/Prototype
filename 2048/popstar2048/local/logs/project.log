@@ -1,54 +1,55 @@
-2018-05-09T07:16:53.832Z - normal: Load ~/.CocosCreator/settings.json
-2018-05-09T07:16:53.848Z - normal: checking language setting...
-2018-05-09T07:16:53.848Z - normal: Language: en
-2018-05-09T07:16:55.833Z - success: protocol editor-framework registered
-2018-05-09T07:16:55.833Z - success: protocol app registered
-2018-05-09T07:16:55.833Z - success: protocol theme registered
-2018-05-09T07:16:55.833Z - success: protocol packages registered
-2018-05-09T07:16:55.833Z - success: protocol unpack registerred
-2018-05-09T07:16:55.833Z - success: protocol disable-commonjs registerred
-2018-05-09T07:16:58.834Z - normal: failed to connect login server due to request timeout
-2018-05-09T07:16:58.834Z - normal: Check project D:\Data\GamePrototype\trunk\2048\popstar2048
-2018-05-09T07:16:58.834Z - normal: Initializing Cocos2d
-2018-05-09T07:16:59.034Z - normal: Initializing Asset Database
-2018-05-09T07:16:59.065Z - success: protocol uuid registerred
-2018-05-09T07:16:59.065Z - success: protocol db registerred
-2018-05-09T07:16:59.065Z - success: protocol thumbnail registerred
-2018-05-09T07:16:59.065Z - normal: Loading editor/builtin packages
-2018-05-09T07:16:59.097Z - success: anysdk loaded
-2018-05-09T07:16:59.197Z - success: assets loaded
-2018-05-09T07:16:59.197Z - success: builder loaded
-2018-05-09T07:16:59.197Z - success: cocos-analytics loaded
-2018-05-09T07:16:59.197Z - success: console loaded
-2018-05-09T07:16:59.213Z - success: hierarchy loaded
-2018-05-09T07:16:59.216Z - success: inspector loaded
-2018-05-09T07:16:59.217Z - success: keystore loaded
-2018-05-09T07:16:59.219Z - success: node-library loaded
-2018-05-09T07:16:59.219Z - success: package-asset loaded
-2018-05-09T07:16:59.219Z - success: preferences loaded
-2018-05-09T07:16:59.219Z - success: project-exporter loaded
-2018-05-09T07:16:59.235Z - success: project-importer loaded
-2018-05-09T07:16:59.235Z - success: project-settings loaded
-2018-05-09T07:16:59.235Z - success: ui-kit loaded
-2018-05-09T07:16:59.235Z - success: ui-grid loaded
-2018-05-09T07:16:59.235Z - success: scene loaded
-2018-05-09T07:16:59.235Z - success: sprite-editor loaded
-2018-05-09T07:16:59.250Z - success: store loaded
-2018-05-09T07:16:59.250Z - success: timeline loaded
-2018-05-09T07:16:59.250Z - normal: Loading builtin packages
-2018-05-09T07:16:59.250Z - success: asset-db-debugger loaded
-2018-05-09T07:16:59.250Z - success: code-editor loaded
-2018-05-09T07:16:59.250Z - success: color-picker loaded
-2018-05-09T07:16:59.250Z - success: package-manager loaded
-2018-05-09T07:16:59.250Z - success: sdkbox loaded
-2018-05-09T07:16:59.250Z - success: tester loaded
-2018-05-09T07:16:59.250Z - success: ui-kit-preview-extra loaded
-2018-05-09T07:16:59.266Z - success: ui-kit-preview loaded
-2018-05-09T07:16:59.266Z - success: ui-tree loaded
-2018-05-09T07:17:00.083Z - normal: Initializing project D:\Data\GamePrototype\trunk\2048\popstar2048
-2018-05-09T07:17:00.083Z - normal: Loading packages
-2018-05-09T07:17:00.083Z - normal: Watching packages
-2018-05-09T07:17:00.099Z - normal: Run Application
-2018-05-09T07:17:00.579Z - success: preview server running at http://localhost:7456
-2018-05-09T07:17:03.906Z - normal: 1.8.2
-2018-05-09T08:44:40.594Z - info: shutdown preview server
+2018-05-10T17:49:55.395Z - normal: Load ~/.CocosCreator/settings.json
+2018-05-10T17:49:55.401Z - normal: checking language setting...
+2018-05-10T17:49:55.401Z - normal: Language: en
+2018-05-10T17:49:58.630Z - success: protocol editor-framework registered
+2018-05-10T17:49:58.631Z - success: protocol app registered
+2018-05-10T17:49:58.631Z - success: protocol theme registered
+2018-05-10T17:49:58.631Z - success: protocol packages registered
+2018-05-10T17:49:58.631Z - success: protocol unpack registerred
+2018-05-10T17:49:58.631Z - success: protocol disable-commonjs registerred
+2018-05-10T17:49:59.025Z - normal: connected!
+2018-05-10T17:49:59.032Z - normal: Check project D:\gitCheck\trunk\2048\popstar2048
+2018-05-10T17:49:59.036Z - normal: Initializing Cocos2d
+2018-05-10T17:50:00.389Z - normal: Initializing Asset Database
+2018-05-10T17:50:00.428Z - success: protocol uuid registerred
+2018-05-10T17:50:00.429Z - success: protocol db registerred
+2018-05-10T17:50:00.429Z - success: protocol thumbnail registerred
+2018-05-10T17:50:00.429Z - normal: Loading editor/builtin packages
+2018-05-10T17:50:00.464Z - success: anysdk loaded
+2018-05-10T17:50:00.600Z - success: assets loaded
+2018-05-10T17:50:00.602Z - success: builder loaded
+2018-05-10T17:50:00.605Z - success: cocos-analytics loaded
+2018-05-10T17:50:00.608Z - success: console loaded
+2018-05-10T17:50:00.665Z - success: fb-instant-games loaded
+2018-05-10T17:50:00.669Z - success: hierarchy loaded
+2018-05-10T17:50:00.672Z - success: inspector loaded
+2018-05-10T17:50:00.673Z - success: keystore loaded
+2018-05-10T17:50:00.676Z - success: node-library loaded
+2018-05-10T17:50:00.678Z - success: package-asset loaded
+2018-05-10T17:50:00.680Z - success: preferences loaded
+2018-05-10T17:50:00.682Z - success: project-exporter loaded
+2018-05-10T17:50:00.698Z - success: project-importer loaded
+2018-05-10T17:50:00.701Z - success: project-settings loaded
+2018-05-10T17:50:00.703Z - success: ui-kit loaded
+2018-05-10T17:50:00.705Z - success: ui-grid loaded
+2018-05-10T17:50:00.708Z - success: scene loaded
+2018-05-10T17:50:00.709Z - success: sprite-editor loaded
+2018-05-10T17:50:00.714Z - success: store loaded
+2018-05-10T17:50:00.718Z - success: timeline loaded
+2018-05-10T17:50:00.719Z - normal: Loading builtin packages
+2018-05-10T17:50:00.721Z - success: asset-db-debugger loaded
+2018-05-10T17:50:00.722Z - success: code-editor loaded
+2018-05-10T17:50:00.723Z - success: color-picker loaded
+2018-05-10T17:50:00.725Z - success: package-manager loaded
+2018-05-10T17:50:00.731Z - success: sdkbox loaded
+2018-05-10T17:50:00.733Z - success: tester loaded
+2018-05-10T17:50:00.735Z - success: ui-kit-preview-extra loaded
+2018-05-10T17:50:00.736Z - success: ui-kit-preview loaded
+2018-05-10T17:50:00.738Z - success: ui-tree loaded
+2018-05-10T17:50:02.211Z - normal: Initializing project D:\gitCheck\trunk\2048\popstar2048
+2018-05-10T17:50:02.239Z - normal: Loading packages
+2018-05-10T17:50:02.243Z - normal: Watching packages
+2018-05-10T17:50:02.254Z - normal: Run Application
+2018-05-10T17:50:05.415Z - success: preview server running at http://localhost:7456
+2018-05-10T17:50:12.954Z - normal: 1.9.1
+2018-05-10T17:56:17.471Z - info: shutdown preview server

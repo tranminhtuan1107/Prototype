@@ -1,7 +1,7 @@
 {
   "appKey": "",
   "appSecret": "",
-  "encryptJs": true,
+  "encryptJs": false,
   "excludeScenes": [],
   "includeAnySDK": false,
   "includeSDKBox": false,
@@ -11,7 +11,7 @@
   "md5Cache": false,
   "mergeStartScene": false,
   "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
+  "optimizeHotUpdate": true,
   "orientation": {
     "landscapeLeft": true,
     "landscapeRight": true,
@@ -20,9 +20,9 @@
   },
   "packageName": "org.cocos2d.helloworld",
   "privateKey": "",
-  "renderMode": "0",
+  "renderMode": "2",
   "startScene": "cfeb6cf6-650f-4311-ba02-87d601e5ef9f",
-  "title": "hello_world",
+  "title": "game2048",
   "webOrientation": "auto",
   "wechatgame": {
     "appid": "wx6ac3f5090a6b99c5",
