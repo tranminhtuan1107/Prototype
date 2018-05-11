@@ -21,7 +21,7 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-        var Sprite1 = this.node.getChildByName("square1");
+       /* var Sprite1 = this.node.getChildByName("square1");
         var number = Sprite1.getChildByName("number");
 
         if (number) {
@@ -31,20 +31,25 @@ cc.Class({
         }
         else {
             cc.error("Something wrong??");
-        }
+        }*/
         this.spawnNewSquare();
     },
-    start () {
+    //start () {
 
-    },
+    //},
 
     spawnNewSquare: function() {
         // generate a new node in the scene with a preset template
-        var spawnNewSquare = cc.instantiate(this.squarePrefab);
-        // put the newly added node under the Canvas node
-        this.node.addChild(spawnNewSquare);
-        // set up a random position for the star
-        spawnNewSquare.setPosition(-130,270);
+        let pos_x = -130;
+        let pos_y = 270;
+       for (let indexX = 0; indexX <= 3; indexX++) {
+            for (let indexY = 0; indexY < 7; indexY++) {
+                var NewSquare = cc.instantiate(this.squarePrefab);
+                this.node.addChild(NewSquare);
+                NewSquare.setPosition(pos_x + 86*indexX, pos_y - 86 * indexY);
+            }
+       }
+      
     },
     // update (dt) {},
   
